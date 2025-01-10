@@ -2074,3 +2074,33 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       content: "";
       height: 1px;
       background: #ebedee; }
+
+            #pr {
+              background-color: #f8f9fa;
+              /* Gris claro */
+              padding: 20px;
+              border-radius: 10px;
+              /* Bordes redondeados */
+              box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+              /* Sombras suaves */
+              color: #333;
+              /* Texto en gris oscuro para buen contraste */
+              max-width: 600px;
+              /* Ancho máximo del div */
+              margin: 20px auto;
+              /* Centrado horizontal */
+              font-family: Arial, sans-serif;
+            }
+      
+            #pr h3 {
+              color: #555;
+              /* Tono ligeramente más oscuro para el título */
+              margin-bottom: 10px;
+            }
+      
+            #pr p {
+              color: #666;
+              /* Gris intermedio */
+              line-height: 1.6;
+              /* Espaciado agradable entre líneas */
+            }
